@@ -9,3 +9,5 @@ Firstly, the goal is to minimise to the number of days required to traverse a ci
 Secondly, there is a distance cap of 26.2 miles per day for travel. 
 
 Thirdly, we are limited to a single anchor node that serves as both the starting and ending node for each day.
+
+This project uses both a modified version of Dijkstra's algorithm that's capable of exploring every edge, as well as a Genetic algorithm (That currently struggles with escaping local optima).
